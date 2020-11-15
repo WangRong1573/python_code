@@ -23,7 +23,6 @@ def my_page():
 def test():
     return json.dumps({'name': 'jack', 'age': 18})
 
-
 def login():
     return load_file('login2.txt')
 
